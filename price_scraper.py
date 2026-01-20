@@ -336,7 +336,14 @@ class PriceScraper:
             self.save_gold_csv()
             self.save_silver_json()
             self.save_silver_csv()
-            self.save_history()
+            
+            # Save history only every 3 hours (e.g., 0, 3, 6, 9, 12, 15, 18, 21)
+            # This ensures history only grows at 3-hour intervals
+            if datetime.now().hour % 3 == 0:
+                self.save_history()
+            else:
+                print("ℹ Skipping history update (scheduled for every 3 hours)")
+                
             self.save_raw_data()
             self.display_summary()
             return True
