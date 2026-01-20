@@ -216,10 +216,12 @@ class PriceScraper:
             writer.writerow(['Timestamp', self.prices['timestamp']])
             writer.writerow(['URL', self.prices['url']])
             writer.writerow([])
-            writer.writerow(['Silver Prices'])
-            writer.writerow(['Price', 'Original Text', 'Table', 'Time'])
-            for entry in self.prices['silver']['all']:
-                writer.writerow([entry['value'], entry['original_text'], entry['table'], entry['timestamp']])
+            for cat in ['22_carat', '21_carat', '18_carat', 'traditional']:
+                writer.writerow([cat.replace('_', ' ').capitalize() + " Silver"])
+                writer.writerow(['Price', 'Original Text', 'Table', 'Time'])
+                for entry in self.prices['silver'][cat]:
+                    writer.writerow([entry['value'], entry['original_text'], entry['table'], entry['timestamp']])
+                writer.writerow([])
         print(f"✓ Silver prices saved to {filename}")
     
     def save_raw_data(self):
