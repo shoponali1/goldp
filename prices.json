@@ -1,0 +1,132 @@
+{
+  "timestamp": "2026-01-22T01:13:40.244510",
+  "url": "https://www.bajus.org/gold-price",
+  "gold": {
+    "table": 1,
+    "row_data": [
+      "TRADITIONAL Gold",
+      "",
+      "14,545 BDT/GRAM"
+    ]
+  },
+  "silver": {
+    "table": 2,
+    "row_data": [
+      "TRADITIONAL Silver",
+      "",
+      "360 BDT/GRAM"
+    ]
+  },
+  "all_tables": [
+    {
+      "table_number": 1,
+      "rows": [
+        [
+          "Product",
+          "Description",
+          "Price"
+        ],
+        [
+          "22 KARAT Gold",
+          "CADMIUM (HALLMARKED GOLD)",
+          "21,645 BDT/GRAM"
+        ],
+        [
+          "21 KARAT Gold",
+          "CADMIUM (HALLMARKED GOLD)",
+          "20,660 BDT/GRAM"
+        ],
+        [
+          "18 KARAT Gold",
+          "CADMIUM (HALLMARKED GOLD)",
+          "17,710 BDT/GRAM"
+        ],
+        [
+          "TRADITIONAL Gold",
+          "",
+          "14,545 BDT/GRAM"
+        ]
+      ]
+    },
+    {
+      "table_number": 2,
+      "rows": [
+        [
+          "Product",
+          "Description",
+          "Price"
+        ],
+        [
+          "22 KARAT Silver",
+          "CADMIUM (HALLMARKED)",
+          "590 BDT/GRAM"
+        ],
+        [
+          "21 KARAT Silver",
+          "CADMIUM (HALLMARKED)",
+          "560 BDT/GRAM"
+        ],
+        [
+          "18 KARAT Silver",
+          "CADMIUM (HALLMARKED)",
+          "480 BDT/GRAM"
+        ],
+        [
+          "TRADITIONAL Silver",
+          "",
+          "360 BDT/GRAM"
+        ]
+      ]
+    }
+  ],
+  "all_prices": [
+    {
+      "value": 8802.0,
+      "original": "8802"
+    },
+    {
+      "value": 41031722.0,
+      "original": "41031722"
+    },
+    {
+      "value": 21645.0,
+      "original": "21,645"
+    },
+    {
+      "value": 20660.0,
+      "original": "20,660"
+    },
+    {
+      "value": 17710.0,
+      "original": "17,710"
+    },
+    {
+      "value": 14545.0,
+      "original": "14,545"
+    },
+    {
+      "value": 590.0,
+      "original": "590"
+    },
+    {
+      "value": 560.0,
+      "original": "560"
+    },
+    {
+      "value": 480.0,
+      "original": "480"
+    },
+    {
+      "value": 360.0,
+      "original": "360"
+    },
+    {
+      "value": 1000.0,
+      "original": "1000,"
+    },
+    {
+      "value": 2026.0,
+      "original": "2026"
+    }
+  ]
+}

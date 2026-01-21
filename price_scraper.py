@@ -1,10 +1,15 @@
-import requests
+from curl_cffi import requests
 from bs4 import BeautifulSoup
 import json
 from datetime import datetime
 import re
 import csv
 import os
+import sys
+
+# Force UTF-8 encoding for Windows console
+if sys.platform == 'win32':
+    sys.stdout.reconfigure(encoding='utf-8')
 
 class PriceScraper:
     """
@@ -55,7 +60,13 @@ class PriceScraper:
         """Fetch the webpage"""
         try:
             print(f"\n📥 Fetching {self.url}...")
-            response = requests.get(self.url, headers=self.headers, timeout=15)
+            # Use curl_cffi with chrome impersonation to bypass Cloudflare
+            response = requests.get(
+                self.url, 
+                headers=self.headers, 
+                timeout=30,
+                impersonate="chrome120"
+            )
             response.raise_for_status()
             print("✓ Page fetched successfully")
             return response.content

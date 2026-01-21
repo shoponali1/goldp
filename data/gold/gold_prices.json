@@ -1,1 +1,104 @@
-
+{
+  "timestamp": "2026-01-22T01:13:27.417654",
+  "url": "https://www.bajus.org/gold-price",
+  "prices": {
+    "22_carat": [
+      {
+        "value": 21645.0,
+        "original_text": "21,645 BDT/GRAM",
+        "row": [
+          "22 KARAT Gold",
+          "CADMIUM (HALLMARKED GOLD)",
+          "21,645 BDT/GRAM"
+        ],
+        "timestamp": "2026-01-22T01:13:27.827631",
+        "table": 1
+      }
+    ],
+    "21_carat": [
+      {
+        "value": 20660.0,
+        "original_text": "20,660 BDT/GRAM",
+        "row": [
+          "21 KARAT Gold",
+          "CADMIUM (HALLMARKED GOLD)",
+          "20,660 BDT/GRAM"
+        ],
+        "timestamp": "2026-01-22T01:13:27.828053",
+        "table": 1
+      }
+    ],
+    "18_carat": [
+      {
+        "value": 17710.0,
+        "original_text": "17,710 BDT/GRAM",
+        "row": [
+          "18 KARAT Gold",
+          "CADMIUM (HALLMARKED GOLD)",
+          "17,710 BDT/GRAM"
+        ],
+        "timestamp": "2026-01-22T01:13:27.828312",
+        "table": 1
+      }
+    ],
+    "traditional": [
+      {
+        "value": 14545.0,
+        "original_text": "14,545 BDT/GRAM",
+        "row": [
+          "TRADITIONAL Gold",
+          "",
+          "14,545 BDT/GRAM"
+        ],
+        "timestamp": "2026-01-22T01:13:27.828673",
+        "table": 1
+      }
+    ],
+    "all": [
+      {
+        "value": 21645.0,
+        "original_text": "21,645 BDT/GRAM",
+        "row": [
+          "22 KARAT Gold",
+          "CADMIUM (HALLMARKED GOLD)",
+          "21,645 BDT/GRAM"
+        ],
+        "timestamp": "2026-01-22T01:13:27.827631",
+        "table": 1
+      },
+      {
+        "value": 20660.0,
+        "original_text": "20,660 BDT/GRAM",
+        "row": [
+          "21 KARAT Gold",
+          "CADMIUM (HALLMARKED GOLD)",
+          "20,660 BDT/GRAM"
+        ],
+        "timestamp": "2026-01-22T01:13:27.828053",
+        "table": 1
+      },
+      {
+        "value": 17710.0,
+        "original_text": "17,710 BDT/GRAM",
+        "row": [
+          "18 KARAT Gold",
+          "CADMIUM (HALLMARKED GOLD)",
+          "17,710 BDT/GRAM"
+        ],
+        "timestamp": "2026-01-22T01:13:27.828312",
+        "table": 1
+      },
+      {
+        "value": 14545.0,
+        "original_text": "14,545 BDT/GRAM",
+        "row": [
+          "TRADITIONAL Gold",
+          "",
+          "14,545 BDT/GRAM"
+        ],
+        "timestamp": "2026-01-22T01:13:27.828673",
+        "table": 1
+      }
+    ]
+  }
+}

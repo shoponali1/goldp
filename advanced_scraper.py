@@ -1,4 +1,4 @@
-import requests
+from curl_cffi import requests
 from bs4 import BeautifulSoup
 import json
 from datetime import datetime
@@ -21,7 +21,13 @@ class GoldSilverScraper:
         """Fetch the webpage"""
         try:
             print(f"Fetching {self.url}...")
-            response = requests.get(self.url, headers=self.headers, timeout=15)
+            # Use curl_cffi with chrome impersonation
+            response = requests.get(
+                self.url, 
+                headers=self.headers, 
+                timeout=30,
+                impersonate="chrome120"
+            )
             response.raise_for_status()
             return response.content
         except Exception as e:

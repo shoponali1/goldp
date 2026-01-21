@@ -1,102 +1,102 @@
 {
-  "timestamp": "2026-01-21T02:17:05.881988",
+  "timestamp": "2026-01-22T01:13:27.417654",
   "url": "https://www.bajus.org/gold-price",
   "prices": {
     "22_carat": [
       {
-        "value": 565.0,
-        "original_text": "565 BDT/GRAM",
+        "value": 590.0,
+        "original_text": "590 BDT/GRAM",
         "row": [
           "22 KARAT Silver",
           "CADMIUM (HALLMARKED)",
-          "565 BDT/GRAM"
+          "590 BDT/GRAM"
         ],
-        "timestamp": "2026-01-21T02:17:06.688004",
+        "timestamp": "2026-01-22T01:13:27.829040",
         "table": 2
       }
     ],
     "21_carat": [
       {
-        "value": 540.0,
-        "original_text": "540 BDT/GRAM",
+        "value": 560.0,
+        "original_text": "560 BDT/GRAM",
         "row": [
           "21 KARAT Silver",
           "CADMIUM (HALLMARKED)",
-          "540 BDT/GRAM"
+          "560 BDT/GRAM"
         ],
-        "timestamp": "2026-01-21T02:17:06.688148",
+        "timestamp": "2026-01-22T01:13:27.829212",
         "table": 2
       }
     ],
     "18_carat": [
       {
-        "value": 465.0,
-        "original_text": "465 BDT/GRAM",
+        "value": 480.0,
+        "original_text": "480 BDT/GRAM",
         "row": [
           "18 KARAT Silver",
           "CADMIUM (HALLMARKED)",
-          "465 BDT/GRAM"
+          "480 BDT/GRAM"
         ],
-        "timestamp": "2026-01-21T02:17:06.688305",
+        "timestamp": "2026-01-22T01:13:27.829386",
         "table": 2
       }
     ],
     "traditional": [
       {
-        "value": 350.0,
-        "original_text": "350 BDT/GRAM",
+        "value": 360.0,
+        "original_text": "360 BDT/GRAM",
         "row": [
           "TRADITIONAL Silver",
           "",
-          "350 BDT/GRAM"
+          "360 BDT/GRAM"
         ],
-        "timestamp": "2026-01-21T02:17:06.688411",
+        "timestamp": "2026-01-22T01:13:27.829587",
         "table": 2
       }
     ],
     "all": [
       {
-        "value": 565.0,
-        "original_text": "565 BDT/GRAM",
+        "value": 590.0,
+        "original_text": "590 BDT/GRAM",
         "row": [
           "22 KARAT Silver",
           "CADMIUM (HALLMARKED)",
-          "565 BDT/GRAM"
+          "590 BDT/GRAM"
         ],
-        "timestamp": "2026-01-21T02:17:06.688004",
+        "timestamp": "2026-01-22T01:13:27.829040",
         "table": 2
       },
       {
-        "value": 540.0,
-        "original_text": "540 BDT/GRAM",
+        "value": 560.0,
+        "original_text": "560 BDT/GRAM",
         "row": [
           "21 KARAT Silver",
           "CADMIUM (HALLMARKED)",
-          "540 BDT/GRAM"
+          "560 BDT/GRAM"
         ],
-        "timestamp": "2026-01-21T02:17:06.688148",
+        "timestamp": "2026-01-22T01:13:27.829212",
         "table": 2
       },
       {
-        "value": 465.0,
-        "original_text": "465 BDT/GRAM",
+        "value": 480.0,
+        "original_text": "480 BDT/GRAM",
         "row": [
           "18 KARAT Silver",
           "CADMIUM (HALLMARKED)",
-          "465 BDT/GRAM"
+          "480 BDT/GRAM"
         ],
-        "timestamp": "2026-01-21T02:17:06.688305",
+        "timestamp": "2026-01-22T01:13:27.829386",
         "table": 2
       },
       {
-        "value": 350.0,
-        "original_text": "350 BDT/GRAM",
+        "value": 360.0,
+        "original_text": "360 BDT/GRAM",
         "row": [
           "TRADITIONAL Silver",
           "",
-          "350 BDT/GRAM"
+          "360 BDT/GRAM"
         ],
-        "timestamp": "2026-01-21T02:17:06.688411",
+        "timestamp": "2026-01-22T01:13:27.829587",
         "table": 2
       }
     ]
