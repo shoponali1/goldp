@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-22T01:13:27.417654",
+  "timestamp": "2026-01-22T01:20:23.261478",
   "url": "https://www.bajus.org/gold-price",
   "prices": {
     "22_carat": [
@@ -11,7 +11,7 @@
           "CADMIUM (HALLMARKED)",
           "590 BDT/GRAM"
         ],
-        "timestamp": "2026-01-22T01:13:27.829040",
+        "timestamp": "2026-01-22T01:20:23.747617",
         "table": 2
       }
     ],
@@ -24,7 +24,7 @@
           "CADMIUM (HALLMARKED)",
           "560 BDT/GRAM"
         ],
-        "timestamp": "2026-01-22T01:13:27.829212",
+        "timestamp": "2026-01-22T01:20:23.747834",
         "table": 2
       }
     ],
@@ -37,7 +37,7 @@
           "CADMIUM (HALLMARKED)",
           "480 BDT/GRAM"
         ],
-        "timestamp": "2026-01-22T01:13:27.829386",
+        "timestamp": "2026-01-22T01:20:23.748025",
         "table": 2
       }
     ],
@@ -50,7 +50,7 @@
           "",
           "360 BDT/GRAM"
         ],
-        "timestamp": "2026-01-22T01:13:27.829587",
+        "timestamp": "2026-01-22T01:20:23.748165",
         "table": 2
       }
     ],
@@ -63,7 +63,7 @@
           "CADMIUM (HALLMARKED)",
           "590 BDT/GRAM"
         ],
-        "timestamp": "2026-01-22T01:13:27.829040",
+        "timestamp": "2026-01-22T01:20:23.747617",
         "table": 2
       },
       {
@@ -74,7 +74,7 @@
           "CADMIUM (HALLMARKED)",
           "560 BDT/GRAM"
         ],
-        "timestamp": "2026-01-22T01:13:27.829212",
+        "timestamp": "2026-01-22T01:20:23.747834",
         "table": 2
       },
       {
@@ -85,7 +85,7 @@
           "CADMIUM (HALLMARKED)",
           "480 BDT/GRAM"
         ],
-        "timestamp": "2026-01-22T01:13:27.829386",
+        "timestamp": "2026-01-22T01:20:23.748025",
         "table": 2
       },
       {
@@ -96,7 +96,7 @@
           "",
           "360 BDT/GRAM"
         ],
-        "timestamp": "2026-01-22T01:13:27.829587",
+        "timestamp": "2026-01-22T01:20:23.748165",
         "table": 2
       }
     ]

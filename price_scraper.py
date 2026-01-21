@@ -57,22 +57,38 @@ class PriceScraper:
             print(f"✓ Directory created/exists: {directory}")
     
     def fetch_page(self):
-        """Fetch the webpage"""
-        try:
-            print(f"\n📥 Fetching {self.url}...")
-            # Use curl_cffi with chrome impersonation to bypass Cloudflare
-            response = requests.get(
-                self.url, 
-                headers=self.headers, 
-                timeout=30,
-                impersonate="chrome120"
-            )
-            response.raise_for_status()
-            print("✓ Page fetched successfully")
-            return response.content
-        except Exception as e:
-            print(f"✗ Error fetching page: {e}")
-            return None
+        """Fetch the webpage with retries and different impersonations"""
+        impersonations = [
+            "chrome120", 
+            "chrome110", 
+            "chrome100",
+            "safari15_3",
+            "edge101"
+        ]
+        
+        for imp in impersonations:
+            try:
+                print(f"\n📥 Fetching {self.url} (Impersonation: {imp})...")
+                response = requests.get(
+                    self.url, 
+                    headers=self.headers, 
+                    timeout=30,
+                    impersonate=imp
+                )
+                
+                # If we get a 403, raise specifically to trigger retry
+                if response.status_code == 403:
+                    print(f"⚠ Got 403 Forbidden with {imp}")
+                    continue
+                    
+                response.raise_for_status()
+                print("✓ Page fetched successfully")
+                return response.content
+            except Exception as e:
+                print(f"✗ Error fetching page with {imp}: {e}")
+        
+        print("❌ All attempts failed.")
+        return None
     
     def extract_price_value(self, text):
         """Extract numeric price value from text"""

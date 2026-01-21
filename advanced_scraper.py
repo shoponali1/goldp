@@ -18,18 +18,35 @@ class GoldSilverScraper:
         self.prices = {}
     
     def fetch_page(self):
-        """Fetch the webpage"""
-        try:
-            print(f"Fetching {self.url}...")
-            # Use curl_cffi with chrome impersonation
-            response = requests.get(
-                self.url, 
-                headers=self.headers, 
-                timeout=30,
-                impersonate="chrome120"
-            )
-            response.raise_for_status()
-            return response.content
+        """Fetch the webpage with retries"""
+        impersonations = [
+            "chrome120", 
+            "chrome110", 
+            "chrome100",
+            "safari15_3",
+            "edge101"
+        ]
+        
+        for imp in impersonations:
+            try:
+                print(f"Fetching {self.url} (Impersonation: {imp})...")
+                response = requests.get(
+                    self.url, 
+                    headers=self.headers, 
+                    timeout=30,
+                    impersonate=imp
+                )
+                
+                if response.status_code == 403:
+                    print(f"⚠ Got 403 Forbidden with {imp}")
+                    continue
+                    
+                response.raise_for_status()
+                return response.content
+            except Exception as e:
+                print(f"Error fetching page with {imp}: {e}")
+        
+        return None
         except Exception as e:
             print(f"Error fetching page: {e}")
             return None
